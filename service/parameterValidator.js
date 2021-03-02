@@ -9,5 +9,4 @@ const validateParameter = (parameter) => {
     return false;
   }
 };
-
 module.exports = { validateParameter };
