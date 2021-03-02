@@ -9,7 +9,7 @@ describe("validate that it only receives positive integers", () => {
     expect(validator.validateParameter(-7)).not.toEqual(true);
   });
 
-  it("does not match a fraction 1/2", () => {
+  it("does not match a fraction 1/7", () => {
     expect(validator.validateParameter("1/7")).toEqual(false);
   });
 
