@@ -4,7 +4,7 @@ The node.js app for calculate prime numbers.
 
 ## Requirements
 
-* Node 8
+* Node 12
 * Jest
 
 ## Common setup
