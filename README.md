@@ -28,6 +28,6 @@ npm run main
 ## Steps for use whit Docker
 
 ```bash
-docker push joseluiscdc/jlc-prime-numbers:console
+docker pull joseluiscdc/jlc-prime-numbers:console
 docker run -it --rm jlc-prime-numbers
 ```
