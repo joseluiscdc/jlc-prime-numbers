@@ -29,5 +29,5 @@ npm run main
 
 ```bash
 docker pull joseluiscdc/jlc-prime-numbers:console
-docker run -it --rm jlc-prime-numbers
+docker run -it --rm joseluiscdc/jlc-prime-numbers:console
 ```
