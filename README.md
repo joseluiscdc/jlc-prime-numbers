@@ -30,5 +30,5 @@ npm run main
 
 ```bash
 docker pull joseluiscdc/jlc-prime-numbers:api
-docker run -d --name api-app joseluiscdc/jlc-prime-numbers:api
+docker run -d --name api-app -p 3000:3000 joseluiscdc/jlc-prime-numbers:api
 ```
