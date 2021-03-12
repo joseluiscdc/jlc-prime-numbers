@@ -20,10 +20,10 @@ cd jlc-prime-numbers
 npm install
 ```
 
-## Steps for use access
+## Steps for use access api
 
 ```bash
-npm run main
+npm run start
 ```
 
 ## Steps for use whit Docker
