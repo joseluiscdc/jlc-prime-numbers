@@ -4,8 +4,8 @@ The node.js app for calculate prime numbers.
 
 ## Requirements
 
-* Node 12
-* Jest
+- Node 12
+- Jest
 
 ## Common setup
 
@@ -25,9 +25,10 @@ npm install
 ```bash
 npm run main
 ```
+
 ## Steps for use whit Docker
 
 ```bash
-docker push joseluiscdc/jlc-prime-numbers:console
-docker run -it --rm jlc-prime-numbers
+docker pull joseluiscdc/jlc-prime-numbers:api
+docker run -it --rm joseluiscdc/jlc-prime-numbers:api
 ```

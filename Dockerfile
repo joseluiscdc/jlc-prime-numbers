@@ -1,9 +1,11 @@
 FROM node:12
 
-COPY [".", "/usr/src/"]
+WORKDIR /usr/app/server
 
-WORKDIR /usr/src
+COPY ["package.json", "package-lock.json", "/usr/app/server/"]
 
 RUN npm install
 
-CMD ["node", "index.js"]
+COPY [".", "/usr/app/server"]
+
+CMD ["node", "main.js"]
