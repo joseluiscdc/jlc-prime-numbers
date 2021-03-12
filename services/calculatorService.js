@@ -1,10 +1,10 @@
-const getListPrimesTo = (nPrimes) => {
+const getListPrimesTo = (nPrimes, order) => {
   let n,
     primes = [1];
   for (n = 1; n <= nPrimes; n++) {
     if (isPrime(n)) primes.push(n);
   }
-  return primes.reverse();
+  return order.trim().toUpperCase() === "ASC" ? primes : primes.reverse();
 };
 
 function isPrime(number) {
