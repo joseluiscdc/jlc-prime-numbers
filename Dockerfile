@@ -8,4 +8,4 @@ RUN npm install
 
 COPY [".", "/usr/app/server"]
 
-CMD ["node", "main.js"]
+CMD ["node", "index.js"]
