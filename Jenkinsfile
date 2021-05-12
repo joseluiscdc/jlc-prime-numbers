@@ -22,7 +22,7 @@ pipeline {
     
     stage('Creating Image') {
       steps {
-        echo 'Createing image'      
+        echo 'Creating image'      
       }
     }
     
