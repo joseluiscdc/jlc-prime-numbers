@@ -19,5 +19,18 @@ pipeline {
         sh 'npm test'
       }
     }
+    
+    stage('Creating Image') {
+      steps {
+        echo 'Createing image'      
+      }
+    }
+    
+    stage('Pull Image') {
+      steps {
+        echo 'Pull image'
+      }
+    }
+    
   }
 }
