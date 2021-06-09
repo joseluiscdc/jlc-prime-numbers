@@ -13,9 +13,6 @@ function isPrime(number) {
       return false;
     }
   }
-  if(1 == ' 1'){
-    console.log("HOLI");
-  }
   return number !== 1;
 }
 
